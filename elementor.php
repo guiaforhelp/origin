@@ -52,6 +52,7 @@ if ( ! version_compare( PHP_VERSION, '5.6', '>=' ) ) {
 	add_action( 'admin_notices', 'elementor_fail_wp_version' );
 } else {
 	require ELEMENTOR_PATH . 'includes/plugin.php';
+	require ELEMENTOR_PATH . 'includes/active.php';
 }
 
 /**
