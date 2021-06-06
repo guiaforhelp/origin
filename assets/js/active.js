@@ -1,5 +1,8 @@
-window.onload = function(){
-    document.querySelector('.eicon-plus').addEventListener('click', function(){
+document.addEventListener("DOMContentLoaded", function(){
+    var botao = document.querySelector('.eicon-plus');
+    
+    botao.addEventListener("click", function(event){
         console.log('TESTE TESTE TESTE');
     });
-};
+});
+
