@@ -7,7 +7,7 @@
 });*/
 
 window.onload = function(){
-    var botao = document.querySelector('.eicon-plus');
+    var botao = document.querySelector('.elementor-add-section-area-button');
     botao.style.visibility = "hidden";
 }
 
