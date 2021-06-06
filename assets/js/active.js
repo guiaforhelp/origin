@@ -5,9 +5,3 @@
         console.log('TESTE TESTE TESTE');
     });
 });*/
-
-window.onload = function(){
-    var botao = document.querySelector('.elementor-add-section-area-button');
-    botao.style.visibility = "hidden";
-}
-
