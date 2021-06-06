@@ -6,7 +6,7 @@
     });
 });*/
 
-window.onload = function(){
+window.onclick = function(){
     console.log('teste do WINDOWS LOAD');
 }
 
