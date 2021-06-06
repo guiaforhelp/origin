@@ -1,1 +1,3 @@
-console.log('TESTE TESTE TESTE');
+document.querySelector('.eicon-plus').addEventListener('click', function(){
+    console.log('TESTE TESTE TESTE');
+});
