@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 		<div class="elementor-add-new-section">
 			<div class="elementor-add-section-area-button elementor-add-section-button" title="<?php echo __( 'Add New Section', 'elementor' ); ?>">
-				<i class="eicon-plus">+</i>
+				<i class="eicon-plus"></i>
 			</div>
 			<div class="elementor-add-section-area-button elementor-add-template-button" title="<?php echo __( 'Add Template', 'elementor' ); ?>">
 				<i class="eicon-folder"></i>
@@ -46,12 +46,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <script type="text/template" id="tmpl-elementor-tag-controls-stack-empty">
 	<?php echo __( 'This tag has no settings.', 'elementor' ); ?>
-</script>
-
-<script>
-	window.onload = function(){
-    var botao = document.querySelector('.elementor-add-section-area-button');
-    botao.style.visibility = "hidden";
-}
-
 </script>
