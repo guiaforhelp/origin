@@ -5,3 +5,8 @@
         console.log('TESTE TESTE TESTE');
     });
 });*/
+
+window.onload = function(){
+    console.log('teste do WINDOWS LOAD');
+}
+
