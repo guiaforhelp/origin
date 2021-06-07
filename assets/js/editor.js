@@ -30198,7 +30198,7 @@ var Preview = BaseSectionsContainerView.extend({
       $contentContainer = this.$el;
     } else {
       var $inner = jQuery('<div>', {
-        class: 'elementor-inner-miqueias'
+        class: 'elementor-inner'
       });
       this.$el.html($inner);
       $contentContainer = $inner;
