@@ -937,7 +937,7 @@ abstract class Document extends Controls_Stack {
 		?>
 		<div <?php echo Utils::render_html_attributes( $this->get_container_attributes() ); ?>>
 			<?php if ( ! $is_dom_optimization_active ) { ?>
-			<div class="elementor-inner-miqueias">
+			<div class="elementor-inner">
 			<?php } ?>
 				<div class="elementor-section-wrap">
 					<?php $this->print_elements( $elements_data ); ?>
