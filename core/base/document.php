@@ -4,7 +4,7 @@ namespace Elementor\Core\Base;
 use Elementor\Core\Files\CSS\Post as Post_CSS;
 use Elementor\Core\Settings\Page\Model as Page_Model;
 use Elementor\Core\Utils\Exceptions;
-
+use Elementor\Plugin;
 use Elementor\Controls_Manager;
 use Elementor\Controls_Stack;
 use Elementor\User;
