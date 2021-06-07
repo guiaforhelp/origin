@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 </script>
 
-<script type="text/template" id="tmpl-elementor-add-section">
+<!--<script type="text/template" id="tmpl-elementor-add-section">-->
 	<div class="elementor-add-section-inner">
 		<div class="elementor-add-section-close">
 			<i class="eicon-close" aria-hidden="true"></i>
@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</ul>
 		</div>
 	</div>
-</script>
+<!--</script>-->
 
 <script type="text/template" id="tmpl-elementor-tag-controls-stack-empty">
 	<?php echo __( 'This tag has no settings.', 'elementor' ); ?>
