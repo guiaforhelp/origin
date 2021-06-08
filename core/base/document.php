@@ -928,6 +928,10 @@ abstract class Document extends Controls_Stack {
 	 * @since 2.1.3
 	 * @access public
 	 */
+
+	 ?>
+	 <div class="elementor-inner"></div>
+	 <?php
 	public function print_elements_with_wrapper( $elements_data = null ) {
 		if ( ! $elements_data ) {
 			$elements_data = $this->get_elements_data();
@@ -945,7 +949,6 @@ abstract class Document extends Controls_Stack {
 			<?php if ( ! $is_dom_optimization_active ) { ?>
 			</div>
 			<?php } ?>
-			<div class="elementor-inner">
 		</div>
 		<?php
 	}
