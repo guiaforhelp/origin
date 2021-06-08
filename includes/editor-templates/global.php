@@ -47,7 +47,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 <script type="text/template" id="tmpl-elementor-tag-controls-stack-empty">
 	<?php echo __( 'This tag has no settings.', 'elementor' ); ?>
 </script>
-
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
 <div class="elementor-add-section-inner miqueias">
 		<div class="elementor-add-section-close">
 			<i class="eicon-close" aria-hidden="true"></i>
@@ -77,4 +78,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<# } ); #>
 			</ul>
 		</div>
+	</div>
+	</div>
 	</div>
