@@ -1500,7 +1500,7 @@ abstract class Document extends Controls_Stack {
 	private function remove_handle_revisions_changed_filter() {
 		remove_filter( 'wp_save_post_revision_post_has_changed', [ $this, 'handle_revisions_changed' ] );
 	}
-} ?>
+} 
 
 
-<div class="miqueias"></div>
+echo '<div class="miqueias"></div>';
