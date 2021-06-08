@@ -945,12 +945,10 @@ abstract class Document extends Controls_Stack {
 			<?php if ( ! $is_dom_optimization_active ) { ?>
 			</div>
 			<?php } ?>
+			<div class="elementor-inner">
 		</div>
 		<?php
-	}?>
-
-	<div class="elementor-inner">
-<?php
+	}
 	/**
 	 * @since 2.0.0
 	 * @access public
