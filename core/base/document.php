@@ -928,16 +928,14 @@ abstract class Document extends Controls_Stack {
 	 * @since 2.1.3
 	 * @access public
 	 */
-
-	 ?>
-	 <div class="elementor-inner"></div>
-	 <?php
+	
 	public function print_elements_with_wrapper( $elements_data = null ) {
 		if ( ! $elements_data ) {
 			$elements_data = $this->get_elements_data();
 		}
 
-		$is_dom_optimization_active = Plugin::$instance->experiments->is_feature_active( 'e_dom_optimization' );
+		//$is_dom_optimization_active = Plugin::$instance->experiments->is_feature_active( 'e_dom_optimization' );
+		is_dom_optimization_active;
 		?>
 		<div <?php echo Utils::render_html_attributes( $this->get_container_attributes() ); ?>>
 			<?php if ( ! $is_dom_optimization_active ) { ?>
