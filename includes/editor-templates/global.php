@@ -48,7 +48,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php echo __( 'This tag has no settings.', 'elementor' ); ?>
 </script>
 
-<div class="elementor-add-section-inner">
+<div class="elementor-add-section-inner miqueias">
 		<div class="elementor-add-section-close">
 			<i class="eicon-close" aria-hidden="true"></i>
 			<span class="elementor-screen-only"><?php echo __( 'Close', 'elementor' ); ?></span>
